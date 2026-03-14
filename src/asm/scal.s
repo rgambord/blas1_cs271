@@ -58,10 +58,9 @@ blas_scal:
 .global blas_scall
 .type blas_scall, @function
 blas_scall:
-	## ST(0) contains alpha
+	## NOTE: Stack contains alpha
 
 	## TODO
-
 	movq %rsi, %rax	## return x
 	ret
 

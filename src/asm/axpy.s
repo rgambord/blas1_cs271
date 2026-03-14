@@ -41,7 +41,7 @@ ret
 .global blas_axpyl
 .type blas_axpyl, @function
 blas_axpyl:
-## NOTE: ST(0) contains alpha
+## NOTE: Stack contains alpha
 
 ## TODO
 
